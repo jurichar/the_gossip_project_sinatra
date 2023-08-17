@@ -12,6 +12,7 @@ This website is a gossip website. You can create a gossip, see all gossips, see 
 * [Sinatra](http://sinatrarb.com/)
 * [Puma](https://puma.io/)
 * [Rack standard](https://rack.github.io/)
+* Rerun
 * [HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/fr/docs/Web/CSS)
 
