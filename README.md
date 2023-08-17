@@ -27,7 +27,23 @@ bundle install
 ## Usage
 
 ```bash
-rackup -p 4567
+rerun 'rackup -p 4567'
+```
+
+## To test a function
+
+app.rb
+
+```ruby
+    require 'pry'
+
+    [code]
+
+    binding.pry
+```
+
+```bash
+    ruby app.rb
 ```
 
 ## Contributing
