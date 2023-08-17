@@ -2,6 +2,19 @@
 
 This project is my first website in Sinatra
 
+## Presentation
+
+This website is a gossip website. You can create a gossip, see all gossips, see a specific gossip, edit a gossip and delete a gossip.
+
+## Built with
+
+* [Ruby](https://www.ruby-lang.org/fr/)
+* [Sinatra](http://sinatrarb.com/)
+* [Puma](https://puma.io/)
+* [Rack standard](https://rack.github.io/)
+* [HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/fr/docs/Web/CSS)
+
 ## Installation
 
 Use the package manager [Bundler](https://bundler.io/) to install all gems.
@@ -13,7 +26,7 @@ bundle install
 ## Usage
 
 ```bash
-ruby controller.rb
+rackup -p 4567
 ```
 
 ## Contributing
