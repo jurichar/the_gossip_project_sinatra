@@ -2,7 +2,7 @@ require 'gossip.rb'
 
 class ApplicationController < Sinatra::Base
   get '/' do
-    erb :index
+    erb :index, locals: {gossips: Gossip.all}
   end
 
   get '/gossips/new/' do
