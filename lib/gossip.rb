@@ -11,7 +11,7 @@ class Gossip
 
     def save
         CSV.open("./db/gossip.csv", "ab") do |csv|
-            csv << [@author, @content]
+            csv << [@author, @content, ]
         end
     end
 
@@ -23,6 +23,15 @@ class Gossip
         return all_gossips
     end
 
+    def self.find(id)
+        idx = 0
+        CSV.open("./db/gossip.csv", "r").each do |csv_line|
+            if (id.to_i === idx)
+                return Gossip.new(csv_line[0], csv_line[1])
+            end
+            idx += 1
+        end
+    end
 end
 
 # binding.pry

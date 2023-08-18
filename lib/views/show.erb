@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>The Gossip Project</title>
+  </head>
+  <body>
+    <h1>Gossip page</h1>
+    <h2>Voici la page du gossip numero <%= params['id'] %></h2>
+      <p>
+        Son auteur : <%= gossip.author %><br/>
+        Son contenu : <%= gossip.content %>
+      </p>
+    <a href="/">Retour a l'acceuil</a>
+  </body>
+</html>
